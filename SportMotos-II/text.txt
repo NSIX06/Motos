@@ -1,0 +1,84 @@
+ <style>
+        /* Corpo da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #00ced1, #f0f8ff); /* Degradê de verde turquesa para azul suave */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box; /* Inclui padding e borda no cálculo da largura/altura */
+        }
+
+        /* Container principal */
+        #main-container {
+            width: 100%;
+            max-width: 600px; /* Define um limite máximo para evitar que o conteúdo vaze */
+            background-color: #e0f7f5; /* Verde turquesa claro */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box; /* Garante que padding e borda sejam incluídos na largura */
+        }
+
+        /* Estilo do formulário */
+        #poost {
+            width: 100%;
+            box-sizing: border-box; /* Garante que inputs e botões não vazem do contêiner */
+        }
+
+        #poost label {
+            font-weight: bold;
+            color: #006d75; /* Verde turquesa mais escuro */
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #poost input[type="text"],
+        #poost input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #006d75; /* Verde turquesa */
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box; /* Inclui padding e borda na largura */
+        }
+
+        /* Estilo do contêiner dos botões */
+        #button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        #poost button,
+        #poost a {
+            width: 48%; /* Ambos os botões têm a mesma largura */
+            padding: 10px;
+            background-color: #008b8b; /* Verde turquesa */
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none; /* Remove o sublinhado dos links */
+            display: inline-block; /* Faz o link se comportar como um botão */
+        }
+
+        #poost button:hover,
+        #poost a:hover {
+            background-color: #006d75; /* Verde turquesa mais escuro */
+        }
+
+        /* Estilo do título */
+        h1 {
+            text-align: center;
+            color: #006d75; /* Verde turquesa mais escuro */
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>

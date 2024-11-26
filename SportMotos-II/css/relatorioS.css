@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #00ced1, #f0f8ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura/altura */
+}
+
+/* Container principal */
+#main-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #e0f7f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #006d75;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #006d75; /* Verde turquesa mais escuro */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #006d75;
+}
+
+th {
+    background-color: #00ced1; /* Verde turquesa */
+    color: white;
+}
+
+/* Botões de ação */
+.btn {
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block; /* Garante que eles se alinhem corretamente */
+}
+
+.btn-edit {
+    background-color: #4CAF50; /* Verde para o botão editar */
+    margin-right: 20px; /* Espaço entre os botões */
+}
+
+.btn-edit:hover {
+    background-color: #45a049;
+}
+
+.btn-delete {
+    background-color: #f44336; /* Vermelho para o botão excluir */
+}
+
+.btn-delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Botão de voltar */
+#back-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #008b8b; /* Verde turquesa */
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#back-button:hover {
+    background-color: #006d75;
+}
